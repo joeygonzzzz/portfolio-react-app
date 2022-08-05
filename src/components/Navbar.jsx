@@ -11,7 +11,7 @@ const Navbar = () => {
 
         {/*Menu*/}
         <div>
-            <ul>
+            <ul className='flex'>
                 <li>Home</li>
                 <li>About</li>
                 <li>Skills</li>
