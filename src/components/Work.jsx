@@ -1,4 +1,7 @@
 import React from 'react'
+import LvBand from '../assets/lvband.png';
+import rosaStand from '../assets/rosastand.png';
+import mazeGame from '../assets/mazegame.png';
 
 const Work = () => {
   return (
@@ -9,22 +12,63 @@ const Work = () => {
                 <p className="py-6">Check out some of my recent work</p>
             </div>
 
+            {/*Container*/}
+
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <div className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+
+                {/*Grid Item*/}
+                <div style={{backgroundImage: `url(${LvBand})`}}
+                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/*Hover Effect*/}
-                    <div>
-                        <span>
-
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            HTML, CSS, JS Website
                         </span>
-                        <div>
+                        <div className='pt-8 text-center'>
                             <a href="/">
-                                <button></button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="/">
-                                <button></button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${rosaStand})`}}
+                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    
+                    {/*Hover Effect*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            React, Tailwind Website
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
+                <div style={{backgroundImage: `url(${mazeGame})`}}
+                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    
+                    {/*Hover Effect*/}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Javascript Game
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
                         </div>
                     </div>
                 </div>
