@@ -26,10 +26,10 @@ const Work = () => {
                             HTML, CSS, JS Website
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://laverniaband.netlify.app">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/joeygonzzzz/lvbandwebsite">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -44,10 +44,10 @@ const Work = () => {
                             React, Tailwind Website
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://rosashamburgerstand.netlify.app">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/joeygonzzzz/hamburgerstand">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -63,10 +63,10 @@ const Work = () => {
                             Javascript Game
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://jgonzmazegame.netlify.app">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/joeygonzzzz/Maze-Game">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
