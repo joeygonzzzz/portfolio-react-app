@@ -1,3 +1,4 @@
+import Work from './components/Work';
 import Skills from './components/Skills';
 import About from "./components/About";
 import Home from "./components/Home";
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
     </div>
   );
 }
