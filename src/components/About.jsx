@@ -17,7 +17,7 @@ const About = () => {
                         <p>Hi, I'm Jose! Please take a look around</p>
                     </div>
                     <div>
-                        <p>I'm a web developer with a focus on the front-end, utilizing JavaScript ES6, communications, and various team building methodologies. Prior background includes 7+ years of education, continuously seeking ways to simplify ideas and instruction. Seeking an exciting opportunity to utilize my combined experience while bringing fresh ideas to fruition. </p>
+                        <p>After 7+ years working in public schools I am searching for new opportunities as a software developer. Below you will able to see some of the projects I have worked on, I am constantly learning and refining my craft. In my free time I enjoy cooking, spending time with my wife and our three dachshunds and all things nerdy. Please do not hesitate to contact me via email or by submitting the form at the bottom!  </p>
                     </div>
                     </div>
                 </div>
