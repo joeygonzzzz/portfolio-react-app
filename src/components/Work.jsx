@@ -4,7 +4,7 @@ import rosaStand from '../assets/rosastand.png';
 import mazeGame from '../assets/mazegame.png';
 import movieFight from '../assets/moviefight.png';
 import secretMessage from '../assets/secretmessage.png';
-import portfolioSite from '../assets/portfoliosite.png';
+import weatherApp from '../assets/weatherapp.png';
 
 const Work = () => {
   return (
@@ -83,7 +83,7 @@ const Work = () => {
                     {/*Hover Effect*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            JS, API For Data
+                            JS, API 
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="https://movie-project-five.vercel.app/">
@@ -115,19 +115,19 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${portfolioSite})`}}
+                <div style={{backgroundImage: `url(${weatherApp})`}}
                 className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/*Hover Effect*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            React, Tailwind, GetForm.io
+                            React, Axios, API
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://portfolio-react-app-eight.vercel.app/">
+                            <a href="https://weather-app-react-swart.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/joeygonzzzz/portfolio-react-app">
+                            <a href="https://github.com/joeygonzzzz/weather-app-react">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
